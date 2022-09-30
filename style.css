@@ -1,21 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     }
-    
-@font-face {
-    font-family: test;
-    src: url(OpenSans-Medium.ttf);}
 
 body { 
-    font-family: test;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 22px;
     background-color: white;
 }
-
+ 
 .navbar {
     background-color: #1a1a1a;
     position: absolute;
@@ -63,10 +61,7 @@ li:after {
   li:hover:after { transform: scaleX(1); }
 
 
-
-
-
-.section-acceuil { 
+.section-acceuil {
     height: 100vh;
     background-color: white;
     background-size: cover;
@@ -108,7 +103,6 @@ li:after {
     position: relative;
     top: 430px;
     left: 800px;
-    font-family: test;
     font-size: 35px;
     text-indent: 50px;
     
