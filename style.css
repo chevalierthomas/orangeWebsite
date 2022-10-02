@@ -11,7 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 22px;
-    background-color: #b35500;
+    background-color: #f4f4f4;
 }
  
 .navbar {
@@ -63,7 +63,7 @@ li:after {
 
 .section-acceuil {
     height: 100vh;
-    background-color: #b35500;
+    background-color: #f4f4f4;
     background-size: cover;
 }
 
@@ -100,12 +100,6 @@ li:after {
 
 }
 
-.underline {
-    text-decoration: underline;
-    text-decoration-color:#f16e00;
-  }
-
-
 .container {
     display: flex;
     flex-flow: row wrap;
@@ -115,20 +109,21 @@ li:after {
     gap: 10px;
   }
 
+.container:hover{
+    color: #ff7900;
+}
+
 .page{
     display: flex;
     justify-content: flex-start;
     width: 49%;
     height: 100px;
-    background-color: #f4f4f4;
-    color: #f16e00;
+    background-color: #f16e00;
+    color: #1a1a1a;
     border-radius: 10px;
 
 }
-.page:hover{
-    text-decoration: underline;
-    text-decoration-color:#f16e00;
-}
+
 
 .icon{
     display: flex;
@@ -143,5 +138,76 @@ li:after {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #1a1a1a;
+}
 
+.text a:hover{
+    text-decoration: underline;
+    text-decoration-color: #1a1a1a;
+}
+
+
+.mainPageArticle{
+    padding-top: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #f4f4f4;
+    color: #595959; 
+
+}
+
+.headerPageArticle{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 80%;
+    height: 100px;
+    text-decoration: underline;
+    text-decoration-color: #f16e00;
+}
+
+.bodyPageArticle{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 80%;
+    padding-bottom: 30px;
+
+}
+.bodyPageArticleText{
+    padding-top: 50px;
+    width: 100%;
+    
+}
+
+.bodyPageArticlePictureRow{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bodyPageArticlePicture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5px;
+    width: 49%;
+    text-align: justify;
+
+}
+.bodyPageArticlePictureHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyPageArticlePictureBody{
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
 }
