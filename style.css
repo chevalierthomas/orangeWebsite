@@ -11,7 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 22px;
-    background-color: white;
+    background-color: #b35500;
 }
  
 .navbar {
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar li a {
-    color: white;
+    color: #f4f4f4;
     
 }
 
@@ -44,7 +44,7 @@ body {
     font-weight: 600;
 }
 
-li a:hover {
+.navbar li a:hover {
     color: #f16e00 ;
     font-weight: 600;
     
@@ -63,16 +63,8 @@ li:after {
 
 .section-acceuil {
     height: 100vh;
-    background-color: white;
+    background-color: #b35500;
     background-size: cover;
-}
-
-
-
-.clippy {
-    height: 1000px;
-    
-    
 }
 
 
@@ -87,9 +79,9 @@ li:after {
     transition:1.5s;
     height: 1000px;
     width: 100%;
-    background-image: url(test.png);
+    background-image: url(img/orange_blur.png);
     background-size: 100%;
-    color: white;
+    color: #f4f4f4;
     
 }
 
@@ -99,16 +91,57 @@ li:after {
 }
 
 .texte-acceuil {
-    color: white;
+    color: #f4f4f4;
     position: relative;
     top: 430px;
     left: 800px;
     font-size: 35px;
     text-indent: 50px;
-    
+
 }
 
+.underline {
+    text-decoration: underline;
+    text-decoration-color:#f16e00;
+  }
 
 
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    gap: 10px;
+  }
 
+.page{
+    display: flex;
+    justify-content: flex-start;
+    width: 49%;
+    height: 100px;
+    background-color: #f4f4f4;
+    color: #f16e00;
+    border-radius: 10px;
 
+}
+.page:hover{
+    text-decoration: underline;
+    text-decoration-color:#f16e00;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
