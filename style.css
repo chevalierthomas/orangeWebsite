@@ -20,7 +20,6 @@ body {
 .navbar {
     background-color: #1a1a1a;
     padding: 10px;
-    position: absolute;
     align-items: center;
     display: flex;
     width: 100%;
@@ -61,7 +60,6 @@ li:after {
 
 
 .section-acceuil {
-    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -127,7 +125,7 @@ li:after {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 20px;
+    margin-top: 90px;
     margin-bottom: 50px;
     gap: 30px;
 
@@ -135,23 +133,37 @@ li:after {
 
 .page{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+
     width: 45%;
     background-color: #f16e00;
     color: #1a1a1a;
     border-radius: 5px;
+    height: 100px;
+
 }
+
+.page a{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.page:hover{
+    background-color: #f4f4f4;
+    transition: 0.3s ease-in-out;
+}
+
+
 
 .icon{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100px;
-    height: 100px;
-
+    
 }
 
 .text{
@@ -159,7 +171,6 @@ li:after {
     align-items: center;
     justify-content: center;
     color: #1a1a1a;
-    height: 100px;
 }
 
 .text a:hover{
@@ -231,4 +242,92 @@ li:after {
     align-items: center;
     width: 50%;
     
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+    .section-acceuil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 90vh;
+        background-color: #1a1a1a;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section-acceuil-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 29%;
+    }
+
+
+    .fit-picture{
+        max-width : 100%;
+        height : auto;
+    }
+    
+    .section-acceuil-texte{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 69%;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #1a1a1a;
+    padding: 10px;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo{
+    justify-content: center;
+
+}
+
+.nav-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
+
+.navbar .nav-links ul li {
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar li a {
+    display: flex;
+    justify-content: center;
+}
+
 }
