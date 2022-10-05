@@ -8,16 +8,19 @@
     }
 
 body { 
+    display: flex;
+    align-items: column;
+    flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 22px;
-    background-color: #f4f4f4;
+    background-color: #1a1a1a;
 }
  
 .navbar {
     background-color: #1a1a1a;
+    padding: 10px;
     position: absolute;
-    padding: 19px 25px;
     align-items: center;
     display: flex;
     width: 100%;
@@ -27,7 +30,6 @@ body {
 
 .navbar li a {
     color: #f4f4f4;
-    
 }
 
 .navbar .nav-links ul {
@@ -47,9 +49,6 @@ body {
 .navbar li a:hover {
     color: #f16e00 ;
     font-weight: 600;
-    
-    
-    
 }
 li:after {
     display:block;
@@ -62,12 +61,34 @@ li:after {
 
 
 .section-acceuil {
-    height: 100vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 90vh;
     background-color: #f4f4f4;
     background-size: cover;
+    width: 100%;
+    background-image: url("img/orange_blur.png");
 }
 
+.section-acceuil-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29%;
+    color: #1a1a1a;
+}
 
+.section-acceuil-texte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69%;
+    color: white;
+
+}
 .grand_logo {
     padding: 220px 200px;
 
@@ -103,27 +124,26 @@ li:after {
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
     margin-bottom: 50px;
-    gap: 10px;
-  }
+    gap: 30px;
 
-.container:hover{
-    color: #ff7900;
-}
+  }
 
 .page{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: flex-start;
-    width: 49%;
-    height: 100px;
+    align-items: center;
+    width: 45%;
     background-color: #f16e00;
     color: #1a1a1a;
-    border-radius: 10px;
-
+    border-radius: 5px;
 }
-
 
 .icon{
     display: flex;
@@ -139,6 +159,7 @@ li:after {
     align-items: center;
     justify-content: center;
     color: #1a1a1a;
+    height: 100px;
 }
 
 .text a:hover{
