@@ -10,19 +10,19 @@
 
 
 ## Accueil
-# Zoning
+### Zoning
 
 ![écran zoning](doc/ecran_accueil_zoning.png)
 
-# Prototype
+### Prototype
 ![écran de prototype](doc/ecran_accueil_prototype.png)
 
 
 
 ## Page
 
-# Zoning
+### Zoning
 ![écran de zoning](doc/ecran_page_zoning.png)
 
-# Prototype
+#### Prototype
 ![écran prototype](doc/ecran_page_prototype.png)
