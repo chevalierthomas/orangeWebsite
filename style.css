@@ -184,7 +184,7 @@ li:after {
     flex-flow: column wrap;
     align-items: center;
     background-color: #f4f4f4;
-    color: #595959; 
+    color: #1a1a1a;
 
 }
 
@@ -194,7 +194,7 @@ li:after {
     margin-top: 25px;
     width: 80%;
     height: 100px;
-    text-decoration: underline;
+    text-decoration: underline 4px;
     text-decoration-color: #f16e00;
 }
 
@@ -208,6 +208,7 @@ li:after {
 
 }
 .bodyPageArticleText{
+
     padding-top: 50px;
     width: 100%;
     
@@ -230,13 +231,9 @@ li:after {
     text-align: justify;
 
 }
-.bodyPageArticlePictureHeader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .bodyPageArticlePictureBody{
-    border: 5px solid black;
+    box-shadow: 10px 8px 5px #595959;
     display: flex;
     align-items: center;
     width: 50%;
