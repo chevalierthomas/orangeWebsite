@@ -26,3 +26,7 @@
 
 #### Prototype
 ![écran prototype](doc/ecran_page_prototype.png)
+
+## Rapport
+
+[rapport](doc/Rapport_groupe15.pdf)
