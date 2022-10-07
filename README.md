@@ -9,7 +9,20 @@
 - Alexis MARICHY <alexis.marichy@edu.univ-fcomte.fr>
 
 
-![écran de prototype](doc/ecran_accueil_prototype.png)
+## Accueil
+# Zoning
+
 ![écran zoning](doc/ecran_accueil_zoning.png)
+
+# Prototype
+![écran de prototype](doc/ecran_accueil_prototype.png)
+
+
+
+## Page
+
+# Zoning
 ![écran de zoning](doc/ecran_page_zoning.png)
+
+# Prototype
 ![écran prototype](doc/ecran_page_prototype.png)
