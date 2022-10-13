@@ -179,7 +179,6 @@ li:after {
 
 
 .mainPageArticle{
-    padding-top: 100px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -191,7 +190,8 @@ li:after {
 .headerPageArticle{
     display: flex;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 110px;
+    margin-left: 90px;
     width: 80%;
     height: 100px;
     text-decoration: underline 4px;
@@ -203,14 +203,15 @@ li:after {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: baseline;
-    width: 80%;
+    width: 85%;
     padding-bottom: 30px;
 
 }
 .bodyPageArticleText{
-
+    text-indent: 40px;
     padding-top: 50px;
     width: 100%;
+    margin-bottom: 30px;
     
 }
 
@@ -225,7 +226,6 @@ li:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding: 5px;
     width: 49%;
     text-align: justify;
