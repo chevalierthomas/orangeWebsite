@@ -18,6 +18,10 @@ La page index.html est responsive
 
 [Rapport économique orange](./doc/CHEVALIER_Thomas_Orange_S1.pdf)
 
+## W3C :
+
+[Vérifications de W3C](./doc/validation.pdf)
+
 ## Zoning et Prototype des page :
 
 ### Accueil zoning :
@@ -35,7 +39,3 @@ La page index.html est responsive
 ### Page prototype :
 
 ![Page prototype](./doc/ecran_page_prototype.png)
-
-## W3C :
-
-[Vérifications de W3C](./doc/validation.pdf)
