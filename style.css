@@ -23,7 +23,7 @@ body {
     align-items: center;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
     box-sizing: border-box;
     background-color: #1a1a1a;
     position: fixed;
@@ -38,6 +38,7 @@ body {
 
 .navbar .nav-links ul {
     display: flex;
+    margin-left: 30px;
 
 }
 
@@ -63,6 +64,9 @@ li:after {
   }
   li:hover:after { transform: scaleX(1); }
 
+
+
+
 .section-acceuil {
     display: flex;
     flex-direction: row;
@@ -77,10 +81,12 @@ li:after {
     clip-path: polygon(0 12%, 100% 17%, 100% 88%, 0 83%);
     transition:1.5s;
 }
+
 .section-acceuil:hover {
     clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
   
 }
+
 .section-acceuil-image{
     display: flex;
     align-items: center;
@@ -88,6 +94,7 @@ li:after {
     width: 29%;
 
 }
+
 .section-acceuil-texte{
 
     display: flex;
@@ -98,6 +105,7 @@ li:after {
     
 
 }
+
 .texte-acceuil {
     color: #f4f4f4;
     position: relative;
@@ -107,6 +115,7 @@ li:after {
     text-indent: 50px;
 
 }
+
 .container {
     display: flex;
     flex-flow: row wrap;
@@ -129,23 +138,16 @@ li:after {
     border-radius: 5px;
     transition: 0.6s ease-out;
 
-
 }
 
 .page a{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 5vh;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
     width: 100%;
     min-height: 100px;
-    
 
 }
-
 
 .page:hover{
     background-color:  #dbdbdb;
@@ -193,6 +195,8 @@ li:after {
     margin-left: 90px;
     width: 80%;
     height: 100px;
+
+
 }
 
 .bodyPageArticle{
@@ -200,13 +204,16 @@ li:after {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: baseline;
-    width: 70%;
+    width: 85%;
+    padding-bottom: 30px;
 
 }
 .bodyPageArticleText{
     text-indent: 40px;
-    padding-top: 50px;
+    padding-top: 40px;
     width: 100%;
+    margin-bottom: 30px;
+    
 }
 
 .bodyPageArticlePictureRow{
@@ -215,47 +222,29 @@ li:after {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+
 }
-.bodyPageArticlePictureText{
+.bodyPageArticlePicture{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
-    width: 60%;
-    text-align: justify;
+    width: 44%;
+    text-align: center;
+    margin-right: 80PX;
+
 
 }
-.bodyPageArticlePicture{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    width: 29%;
-    text-align: justify;
-
-}
-
 
 .bodyPageArticlePictureBody{
-    box-shadow: 10px 8px 5px #595959;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    width: 80%;
+    width: 100%;
+
     
 }
-.bodyPageArticlePictureBody img{
-    height: 100%;
-    width: 100%;
-}
 
 
-
-.test{
-    height: 3000px;
-}
 
 .foot{
     height: 150px;
@@ -285,7 +274,10 @@ li:after {
   }
   .foot a:hover:after { transform: scaleX(1); }
 
-
+hr{
+    color: #f16e00;
+    width: 100%;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -338,13 +330,12 @@ li:after {
 
 .section-acceuil {
         height: 50vh;
-        margin-top: 35vh;
+
     }
 .page{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    
     width: 100%;
     gap: 10px;
     margin: 10px;
@@ -352,14 +343,12 @@ li:after {
 
 .page a{
         display: flex;
-        flex-direction: column;
-        padding: 10px;
+        flex-direction: row;
+        justify-content: flex-start;
         align-items: center;
-
+        
         width: 100%;
 }
-.page p{
-    text-align: center;
 
 
         
