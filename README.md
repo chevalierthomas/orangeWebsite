@@ -37,3 +37,14 @@ Site internet de présentation d'orange, pour une navigation optimale nous vous 
 ### Page prototype :
 
 ![Page prototype](./doc/ecran_page_prototype.png)
+
+## Répartition des tâches :
+
+- Le fichier style Css a été réalisé en majorité par Thomas et Alexis, Stévan y est intervenue également pour l'intégration du footer
+- Le fichier index.html conçu par Stévan en majorité, Alexis y a également participé minoritairement
+- Les fichiers historique.html et historique.css ont été entierement conçu par Romain
+- Le fichier FaiMobile.html a été conçu par Clément
+- Le fichier FaiFixe.html a été conçu par Thomas
+- Le fichier statistique.html a été conçu par Alexis
+- Le fichier README.md a été conçu par Thomas
+
