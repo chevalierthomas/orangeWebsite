@@ -9,7 +9,6 @@
 
 body { 
     display: flex;
-    align-items: column;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -300,7 +299,6 @@ li:after {
 .pos{
     display: flex;
     margin-top: 10px;
-    margin-left: 15px;
 }
 
 
@@ -366,6 +364,7 @@ hr{
     }
 
 .section-acceuil {
+        margin-top: 270px; 
         height: 50vh;
 
     }
