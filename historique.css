@@ -1,0 +1,148 @@
+/* Page historique*/
+
+.pageHist{
+    max-width: 60rem;
+    padding: 5rem 2rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    
+    p:not([class]){
+      line-height: var(--cssTypographyLineHeight, 1.78);
+      margin-top: var(--cssTypographyBasicMargin, 1em);
+      margin-bottom: 0;
+    }
+    
+    p:not([class]):first-child{
+      margin-top: 0;
+    }
+    
+    
+    .time{
+      display: var(--timeDisplay, inline-flex);
+    }
+    
+  
+    
+    .time{
+      padding: var(--timePadding, .25rem 1.25rem .25rem);
+      background-color: var(--timeBackgroundColor, #f0f0f0);
+    
+      font-size: var(--timeFontSize, .75rem);
+      font-weight: var(--timeFontWeight, 700);
+      text-transform: var(--timeTextTransform, uppercase);
+      color: var(--timeColor, currentColor);
+    }
+    
+  
+    .card{
+      padding: var(--timelineCardPadding, 1.5rem 1.5rem 1.25rem);
+    }
+    
+    .card__content{
+      margin-top: var(--cardContentMarginTop, .5rem);
+      text-align: center;
+    }
+    
+    
+    .card{
+      border-radius: var(--timelineCardBorderRadius, 2px);
+      border-left: var(--timelineCardBorderLeftWidth, 3px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
+      box-shadow: var(--timelineCardBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24));
+      background-color: var(--timelineCardBackgroundColor, #fff);
+      border-color: #1a1a1a;
+      box-shadow: 10px 8px 5px #A0A0A0;
+    }
+    
+  
+    
+    .timeline{
+      display: var(--timelineDisplay, grid);
+      grid-row-gap: var(--timelineGroupsGap, 3rem);
+      
+    }
+  
+    
+    .timeline__year{
+      margin-bottom: 1.25rem; /* 1 */
+      font-size: large;
+  
+    }
+    
+    .timeline__cards{
+      display: var(--timeloneCardsDisplay, grid);
+      grid-row-gap: var(--timeloneCardsGap, 1.5rem);
+    }
+    
+  
+    
+    .timeline{
+      --uiTimelineMainColor: var(--timelineMainColor, #222);
+      --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+    
+      border-left: var(--timelineLineWidth, 3px) solid var(--timelineLineBackgroundColor, var(--uiTimelineMainColor));
+      padding-top: 1rem;
+      padding-bottom: 1.5rem;
+      width: 900px;
+    }
+    
+    .timeline__year{
+      --timePadding: var(--timelineYearPadding, .5rem 1.5rem);
+      --timeColor: var(--uiTimelineSecondaryColor);
+      --timeBackgroundColor: var(--uiTimelineMainColor);
+      --timeFontWeight: var(--timelineYearFontWeight, 400);
+      border: #1a1a1a;
+    }
+    
+    .timeline__card{
+      position: relative;
+      margin-left: var(--timelineCardLineGap, 1rem);
+      width: 800px;
+    }
+    
+    
+    .timeline__cards{
+      overflow: hidden;
+      padding-top: .25rem;
+      padding-bottom: 4rem; 
+      
+    }
+  
+    .timeline__cardsLast{
+      overflow: hidden;
+      padding-top: .25rem; 
+      height: 95px;
+    }
+    
+    .timeline__card::before{
+      content: "";
+      width: 100%;
+      height: var(--timelineCardLineWidth, 2px);
+      background-color: var(--timelineCardLineBackgroundColor, var(--uiTimelineMainColor));
+    
+      position: absolute;
+      top: var(--timelineCardLineTop, 1rem);
+      left: -50%;
+      z-index: -1;
+    }
+    
+  
+    .timeline{
+      --timelineMainColor: #f16e00;
+    }
+    
+    
+    .para{
+      margin-top: 0;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+    
+    .paraLast{
+      margin-top: 0;
+      line-height: 1.5;
+    }
+    
+    
+    
+    /* Page historique fin */ 
