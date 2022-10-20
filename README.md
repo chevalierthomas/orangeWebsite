@@ -1,8 +1,6 @@
 # https://chevalierthomas.github.io/orangeWebsite/index.html
 
-Site internet de présentation d'orange
-Pour une navigation optimale nous vous recommandons d'utiliser un écran au format 16:9
-La page index.html est responsive
+Site internet de présentation d'orange, pour une navigation optimale nous vous recommandons d'utiliser un écran au format 16:9. La page index.html est responsive
 
 
 | Membre             | Adresse universitaire |
