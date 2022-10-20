@@ -29,7 +29,7 @@ Site internet de présentation d'orange, pour une navigation optimale nous vous 
 - Le fichier FaiFixe.html a été conçu par Thomas
 - Le fichier statistique.html a été conçu par Alexis
 - Le fichier README.md a été conçu par Thomas
-- Relecture des pages pour corriger des fautes d'orthographe a été réalisée par Clément
+- La relecture des pages pour corriger les fautes d'orthographe a été réalisée par Clément
 
 ## Zoning et Prototype des page :
 
