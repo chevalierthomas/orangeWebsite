@@ -300,6 +300,7 @@ li:after {
 .pos{
     display: flex;
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 
@@ -365,7 +366,6 @@ hr{
     }
 
 .section-acceuil {
-        margin-top: 270px; 
         height: 50vh;
 
     }
