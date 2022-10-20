@@ -247,32 +247,68 @@ li:after {
 
 
 .foot{
-    height: 150px;
+    height: 250px;
     display:flex ;
     justify-content: space-around;
     width: 100%;
     background-color: #1a1a1a;
     margin-top: 30px;
+    
 }
+
+.footTitre{
+    display: flex;
+    color: #f4f4f4;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+}
+.footTexte{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    font-weight: normal;
+    font-size: medium;
+    gap:10px;
+
+}
+.createur{
+    font-weight: 900;
+}
+
+.autre{
+    color: gray;
+}
+
+.link{
+    color:gray;
+}
+
+.link:hover{
+    
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.reseau{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px
+}
+
+.pos{
+    display: flex;
+    margin-top: 10px;
+}
+
+
 
 .foot a {
     width: 100px;
     height: 100%;
     color: #f4f4f4;
 }
-
-.foot a:hover {
-    color: #f16e00 ;
-    font-weight: 600;
-}
-.foot a:after {
-    display:block;
-    content: '';
-    border-bottom: solid 3px #f16e00;
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-  }
-  .foot a:hover:after { transform: scaleX(1); }
 
 hr{
     color: #f16e00;
